@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    min-height: 100vh; /* Full height */
+  }
+  
+  .app-title {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar-container {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-input {
+    padding: 10px;
+    border: none;
+    border-radius: 10px 0 0 10px;
+    width: 250px;
+    font-size: 16px;
+  }
+  
+  .search-button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff; /* Bootstrap Primary Color */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 0 10px 10px 0;
+  }
+  
+  .search-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  .movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .movie-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    background-color: #f9f9f9; /* Light background */
+  }
+  
+  .movie-card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+  }
+  
+  h3 {
+    color: #333; /* Dark text color for title */
+  }
+  
+  p {
+    color: #666; /* Grey text for genre and rating */
+  }
+  
+  /* Different colors for different genres */
+  .Action {
+    background-color: #ffcccc; /* Light red */
+  }
+  
+  .Comedy {
+    background-color: #ccffcc; /* Light green */
+  }
+  
+  .Drama {
+    background-color: #ccccff; /* Light blue */
+  }
+  
+  .Crime {
+    background-color: #ffffcc; /* Light yellow */
+  }
+  
+  .Sci-Fi {
+    background-color: #e6ccff; /* Light purple */
+  }
+  
+  .Biography {
+    background-color: #ffe6cc; /* Light orange */
+  }
+  

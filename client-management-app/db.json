@@ -1,0 +1,60 @@
+{
+  "clients": [
+    {
+      "id": "62e4",
+      "name": "afdasd"
+    },
+    {
+      "id": "e4d3",
+      "name": "fadsfads"
+    },
+    {
+      "id": "abdb",
+      "name": "asdfads"
+    },
+    {
+      "id": "2292",
+      "name": "fasdfadsfsa"
+    }
+  ],
+  "projects": [
+    {
+      "id": "a2c5",
+      "name": "fasdfasd"
+    },
+    {
+      "id": "fd39",
+      "name": "asdfsddfasdf"
+    },
+    {
+      "id": "2410",
+      "name": "asdfsdfasdf"
+    },
+    {
+      "id": "1145",
+      "name": "saddfsadfsda"
+    },
+    {
+      "id": "1ea7",
+      "name": "asdfdasf"
+    }
+  ],
+  "meetings": [
+    {
+      "id": "912b",
+      "topic": "asdfadsfadsf"
+    },
+    {
+      "id": "9cb3",
+      "topic": "asfdsadfasdf"
+    },
+    {
+      "id": "4364",
+      "topic": "asdfasdfdas"
+    },
+    {
+      "id": "c0af",
+      "topic": "afdsads"
+    }
+  ]
+}
